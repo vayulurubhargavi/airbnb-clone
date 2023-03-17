@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  
+  width:35vw;
+  background-color: lightsteelblue;
+  margin: 5px auto;
+  padding-bottom: 10px;
+
+
+}
+
+.nav-bar
+{
+
+  background-color:lightsalmon;
+
+
+}
+
+.nav-bar>img{
+  padding:4px 5px;
+}
+
+section{
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.hero-img{
+
+  max-width: 400px;
+  align-self: center;
+}
+
+.hero-text{
+  margin-top: -5px;
+}
+
+
+.cards-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  overflow-x: scroll; 
+}
+
+.card {
+  display: flex;          
+  flex-direction: column;
+  width: 175px;
+  font-size: 16px;
+
+}
+
+
+.card-stats {
+  display: flex;
+ 
+}
+
+
+.card-price {
+  margin-top: -17px;
+}
