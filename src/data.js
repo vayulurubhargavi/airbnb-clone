@@ -22,7 +22,7 @@ export default [
             rating: 5.0,
             reviewCount: 30
         },
-        location: "UK",
+        location: "Online",
         openSpots: 27,
     },
     {
